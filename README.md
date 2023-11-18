@@ -1,5 +1,5 @@
-# recipes-ratings
-Exploratory Data Analysis on Recipes from food.com
+# My new title here: recipes-ratings
+Here is the research question: Exploratory Data Analysis on Recipes from food.com
 
 by Mert Ozer
 
