@@ -1,5 +1,5 @@
-title: Slate theme
-description: Slate is a theme for GitHub Pages.
+title: "Beyond the Clock: Unraveling the Myths of Preparation Time and Recipe Ratings"
+description: by Mert Ozer
 remote_theme: pages-themes/slate@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
