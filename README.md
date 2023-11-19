@@ -13,14 +13,16 @@ by Mert Ozer
 
 Why does preparation time matter in the world of recipes and cooking? This pivotal question resonates with everyone from home cooks to professional chefs. As we explore whether the time invested in a recipe influences its average ratings, we unlock insights crucial for anyone passionate about culinary arts. This analysis will specifically answer the question: Is preparation time of a recipe important factor for average ratings?
 
-## Introduction and Question Identification
+## The Data
+
 The dataset used in this research contains recipes and ratings from food.com. It was originally scraped and used by the authors of this (https://cseweb.ucsd.edu/~jmcauley/pdfs/emnlp19c.pdf) recommender systems paper.
 The data has two csv files:
 -   RAW_recipes.csv: contains 83782 recipes
 -	RAW_interactions.csv: contains 83782 reviews and ratings submitted for the recipes in RAW_recipes.csv
 
 A subset of the raw data containing only the recipes and reviews posted since 2008 will be used in this research, since the original data is quite large.
-Even though the data contains more columns for the purpose of this research only the following columns of each dataset will be used.
+
+Even though the data contains more columns, for the purpose of this research only the following columns of each dataset will be used.
 
 | Columns used   | Explanation of the columns                                                                                                                        | CSV file column is taken from |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
