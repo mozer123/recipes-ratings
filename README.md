@@ -200,6 +200,7 @@ To address the question of whether there is a significant difference in the dist
 **Observed TVD:** approximately 0.5
 
 **P-value:** 0.92
+
 Accordingly, we arrive at the following conclusion that the observed TVD suggests there is a difference in the distribution of average ratings across various recipe preparation time intervals. However, the high p-value indicates that the observed difference in distributions is not statistically significant at the significance level 0.05. Therefore, we do not have sufficient evidence to reject the null hypothesis.
 Based on this analysis, we conclude that there is no statistically significant evidence to support the claim that recipes with certain amount of preparation times receive higher ratings. The preparation time of the recipes, categorized into intervals, does not seem to have a significant impact on how the recipes are rated. This finding is important as it suggests that factors other than preparation time may be more influential in determining the ratings that recipes receive.
 
