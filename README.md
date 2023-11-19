@@ -57,13 +57,14 @@ Even though the data contains more columns for the purpose of this research only
 **Drop unnecessary columns:** We will be dropping columns that will not be used in this research.
 
 Here is the resulting DataFrame:
-|   minutes | nutrition                                     |   n_steps |   n_ingredients |   average_rating |   sodium | time_interval   |
-|----------:|:----------------------------------------------|----------:|----------------:|-----------------:|---------:|:----------------|
-|        40 | [138.4, 10.0, 50.0, 3.0, 3.0, 19.0, 6.0]      |        10 |               9 |                4 |        3 | 30-60 min       |
-|        45 | [595.1, 46.0, 211.0, 22.0, 13.0, 51.0, 26.0]  |        12 |              11 |                5 |       22 | 30-60 min       |
-|        40 | [194.8, 20.0, 6.0, 32.0, 22.0, 36.0, 3.0]     |         6 |               9 |                5 |       32 | 30-60 min       |
-|       120 | [878.3, 63.0, 326.0, 13.0, 20.0, 123.0, 39.0] |         7 |               7 |                5 |       13 | 120-150 min     |
-|        90 | [267.0, 30.0, 12.0, 12.0, 29.0, 48.0, 2.0]    |        17 |              13 |                5 |       12 | 90-120 min      |
+
+| minutes | nutrition | n_steps | n_ingredients | average_rating | sodium | time_interval |
+|-------- |-----------|---------|---------------|----------------|--------| ------------- |
+|   40    | [138.4, 10.0, 50.0, 3.0, 3.0, 19.0, 6.0]      |        10 |               9 |          4 |     3    | 30-60 min       |
+|   45    | [595.1, 46.0, 211.0, 22.0, 13.0, 51.0, 26.0]  |        12 |              11 |          5 |       22 | 30-60 min       |
+|   40    | [194.8, 20.0, 6.0, 32.0, 22.0, 36.0, 3.0]     |         6 |               9 |          5 |       32 | 30-60 min       |
+|   120   | [878.3, 63.0, 326.0, 13.0, 20.0, 123.0, 39.0] |         7 |               7 |          5 |       13 | 120-150 min     |
+|   90    | [267.0, 30.0, 12.0, 12.0, 29.0, 48.0, 2.0]    |        17 |              13 |          5 |       12 | 90-120 min      |
 
 ## Univariate Analysis
 
@@ -172,14 +173,19 @@ Our objective is not merely to affirm if shorter preparation times correlate wit
 ### Hypothesis Testing
 
 To address the question of whether there is a significant difference in the distribution of average ratings across various recipe preparation time intervals, we can establish the following hypotheses:
+
 **Null Hypothesis:** The distribution of average ratings is the same across all preparation time intervals. Any observed differences in the distribution of ratings between time intervals are due to random chance.
+
 **Alternative Hypothesis:** The distribution of average ratings differs significantly across at least one pair of preparation time intervals. This implies that preparation time influences the ratings a recipe receives.
+
 **Significance Level:** 0.05 is chosen as it a common level in many researches
-**Test Statistic:** The Total Variation Distance (TVD) is an ideal test statistic for our study as it offers a method for comparing the distributions of average ratings across predefined recipe preparation time intervals. 
+
+**Test Statistic:** The Total Variation Distance (TVD) is an ideal test statistic for our study as it offers a method for comparing the distributions of average ratings across predefined recipe preparation time intervals.
+
 **Observed TVD:** approximately 0.5
+
 **P-value:** 0.92
 Accordingly, we arrive at the following conclusion that the observed TVD suggests there is a difference in the distribution of average ratings across various recipe preparation time intervals. However, the high p-value indicates that the observed difference in distributions is not statistically significant at the significance level 0.05. Therefore, we do not have sufficient evidence to reject the null hypothesis.
 Based on this analysis, we conclude that there is no statistically significant evidence to support the claim that recipes with certain amount of preparation times receive higher ratings. The preparation time of the recipes, categorized into intervals, does not seem to have a significant impact on how the recipes are rated. This finding is important as it suggests that factors other than preparation time may be more influential in determining the ratings that recipes receive.
-
 
 ---
