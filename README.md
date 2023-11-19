@@ -86,7 +86,7 @@ The histogram also shows periodic spikes at regular intervals, particularly noti
 
 ## Bivariate Analysis
 
-To see the relationship between average_rating and minutes (Minutes to prepare recipe). We can graph a scatter plot with a heat map.Graph the relationship.
+To see the relationship between average_rating and minutes (Minutes to prepare recipe). We can graph a scatter plot to show the relationship.
 
 <iframe src="assets/graph3.html" width=800 height=600 frameBorder=0></iframe>
 
